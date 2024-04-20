@@ -11,8 +11,8 @@ class EuropeanOptionPricing
     {
 
         // Parameters of the option
-        double S = 100;  // Spot price
-        double K = 101;  // Strike price
+        double S = 90;  // Spot price
+        double K = 95;  // Strike price
         double r = 0.05;  // Continuously compounded interest rate
         double sigma = 0.2;  // Volatility in years
         double T = 1;  // Time to maturity in years
@@ -36,7 +36,7 @@ class EuropeanOptionPricing
         Console.WriteLine($"Time elapsed: {stopwatch.ElapsedMilliseconds/1000.0} s\n");
 
         // Number of simulations
-        ulong N2 = (ulong)Math.Pow(10, 10);
+        ulong N2 = (ulong)Math.Pow(10, 7);
         Console.WriteLine($"\nMonte Carlo method parallelized using {N2} simulations.");
 
         // Calculate option prices'
