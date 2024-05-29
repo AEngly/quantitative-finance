@@ -31,6 +31,7 @@ int main() {
     std::cin >> T;
 
     // Print the grid resolution
+    std::cout << std::endl;
     std::cout << "Grid: [0, " << N << "]" << " x " << "[0, " << M << "]" << std::endl;
     std::cout << "Spatial range: [0, " << 2*spot << "]" << std::endl;
     std::cout << "Temporal range: [0, " << T << "]" << std::endl;
