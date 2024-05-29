@@ -22,6 +22,14 @@ int main() {
     std::cout << "Methodology: Finite difference" << std::endl;
     std::cout << std::endl;
 
+    // Get inputs
+    std::cout << "Enter the spot price: ";
+    std::cin >> spot;
+    std::cout << "Enter the strike price: ";
+    std::cin >> strike;
+    std::cout << "Enter the maturity: ";
+    std::cin >> T;
+
     // Print the grid resolution
     std::cout << "Grid: [0, " << N << "]" << " x " << "[0, " << M << "]" << std::endl;
     std::cout << "Spatial range: [0, " << 2*spot << "]" << std::endl;
@@ -35,22 +43,22 @@ int main() {
 
     // Print inputs for the user
     std::cout << std::endl;
-    std::cout << "Spot: " << spot << std::endl;
-    std::cout << "Strike: " << strike << std::endl;
+    std::cout << "Spot: " << "$" << spot << std::endl;
+    std::cout << "Strike: " << "$" << strike << std::endl;
     std::cout << "Rate: " << rate << std::endl;
     std::cout << "Volatility: " << volatility << std::endl;
-    std::cout << "Maturity: " << T << std::endl;
+    std::cout << "Maturity: " << T << " years" << std::endl;
     std::cout << std::endl;
 
     // Print the price of the option
-    std::cout << "Call option price: " << priceGrid[N / 2][M] << std::endl;
+    std::cout << "Call option price: " << "$" << priceGrid[N / 2][M] << std::endl;
     std::cout << std::endl;
     std::cout << "---------------------------------------------------------------" << std::endl;
     std::cout << std::endl;
 
     // Save price grid to a text file
     std::ofstream file;
-    file.open("BlackScholesFD.txt");
+    file.open("../data/BlackScholesFD.txt");
     for (int i = 0; i <= N; ++i) {
         for (int j = 0; j <= M; ++j) {
             file << priceGrid[i][j] << ", ";
