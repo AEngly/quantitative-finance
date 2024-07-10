@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CppQuantLib",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CppQuantLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CppQuantLib-Debug-2e732ee5e77b33ed9d3d.json",
+					"name" : "CppQuantLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestBlackScholesFD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestBlackScholesFD-Debug-4475e75647fc14ef1f8d.json",
+					"name" : "TestBlackScholesFD",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/build",
+		"source" : "/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

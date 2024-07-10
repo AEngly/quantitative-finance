@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/include\" -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/CppQuantLib.dir/src/main.cpp.o -c \"/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/src/main.cpp\"",
+  "file": "/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/src/main.cpp",
+  "output": "CMakeFiles/CppQuantLib.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/include\" -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/CppQuantLib.dir/src/BlackScholesFD.cpp.o -c \"/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/src/BlackScholesFD.cpp\"",
+  "file": "/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/src/BlackScholesFD.cpp",
+  "output": "CMakeFiles/CppQuantLib.dir/src/BlackScholesFD.cpp.o"
+},
+{
+  "directory": "/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/include\" -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/CppQuantLib.dir/src/Utilities.cpp.o -c \"/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/src/Utilities.cpp\"",
+  "file": "/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/src/Utilities.cpp",
+  "output": "CMakeFiles/CppQuantLib.dir/src/Utilities.cpp.o"
+},
+{
+  "directory": "/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/include\" -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/TestBlackScholesFD.dir/tests/TestBlackScholesFD.cpp.o -c \"/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/tests/TestBlackScholesFD.cpp\"",
+  "file": "/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/tests/TestBlackScholesFD.cpp",
+  "output": "CMakeFiles/TestBlackScholesFD.dir/tests/TestBlackScholesFD.cpp.o"
+},
+{
+  "directory": "/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/include\" -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/TestBlackScholesFD.dir/src/BlackScholesFD.cpp.o -c \"/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/src/BlackScholesFD.cpp\"",
+  "file": "/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/src/BlackScholesFD.cpp",
+  "output": "CMakeFiles/TestBlackScholesFD.dir/src/BlackScholesFD.cpp.o"
+},
+{
+  "directory": "/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/include\" -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/TestBlackScholesFD.dir/src/Utilities.cpp.o -c \"/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/src/Utilities.cpp\"",
+  "file": "/Users/andreasengly/Documents/Portfolio for GitHub/quantitative-finance/CppQuantLib/src/Utilities.cpp",
+  "output": "CMakeFiles/TestBlackScholesFD.dir/src/Utilities.cpp.o"
+}
+]
